@@ -1,0 +1,13 @@
+baseURL: "https://ignatiusmaldive-a11y.github.io/benet-corner/"
+languageCode: "ca"
+title: "Benet Corner"
+disableKinds:
+  - taxonomy
+  - term
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+params:
+  description: "Benet Corner és un hort i espai comunitari al Carrer del Rec Comtal 19B."
+  imageCredit: "Fotos: Horts Urbans / BCN Regional"
