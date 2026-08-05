@@ -1,13 +1,135 @@
-baseURL: "https://ignatiusmaldive-a11y.github.io/benet-corner/"
+baseURL: "https://ignatiusmaldive-a11y.github.io/benet-corner-site/"
 languageCode: "ca"
+defaultContentLanguage: "ca"
 title: "Benet Corner"
-disableKinds:
-  - taxonomy
-  - term
+theme: "blowfish"
+summaryLength: 28
+enableRobotsTXT: true
+enableEmoji: true
+
 markup:
   goldmark:
     renderer:
       unsafe: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+pagination:
+  pagerSize: 12
+
+taxonomies:
+  tag: tags
+  category: categories
+  author: authors
+  series: series
+
+menus:
+  main:
+    - name: "Pla"
+      pageRef: "pla"
+      weight: 10
+    - name: "Participa"
+      pageRef: "participa"
+      weight: 20
+    - name: "Documents"
+      pageRef: "documents"
+      weight: 30
+    - name: "Noticies"
+      pageRef: "noticies"
+      weight: 40
+    - name: "Hermes"
+      pageRef: "hermes"
+      weight: 50
+  footer:
+    - name: "Participa"
+      pageRef: "participa"
+      weight: 10
+    - name: "Documents"
+      pageRef: "documents"
+      weight: 20
+
 params:
   description: "Benet Corner és un hort i espai comunitari al Carrer del Rec Comtal 19B."
   imageCredit: "Fotos: Horts Urbans / BCN Regional"
+  colorScheme: "congo"
+  defaultAppearance: "light"
+  autoSwitchAppearance: false
+  enableA11y: true
+  enableSearch: true
+  enableCodeCopy: false
+  disableImageOptimization: true
+  disableImageOptimizationMD: true
+  mainSections:
+    - noticies
+    - documents
+  defaultFeaturedImage: "/assets/benet-corner-4.jpg"
+  defaultSocialImage: "/assets/benet-corner-4.jpg"
+
+  header:
+    layout: "fixed-fill-blur"
+
+  footer:
+    showMenu: true
+    showCopyright: true
+    showThemeAttribution: false
+    showAppearanceSwitcher: false
+    showScrollToTop: true
+
+  homepage:
+    layout: "custom"
+    homepageImage: "/assets/benet-corner-4.jpg"
+    showRecent: true
+    showRecentItems: 4
+    showMoreLink: true
+    showMoreLinkDest: "/noticies/"
+    cardView: true
+
+  article:
+    showDate: true
+    showDateUpdated: true
+    showAuthor: true
+    showHero: true
+    heroStyle: "background"
+    showBreadcrumbs: true
+    showHeadingAnchors: true
+    showPagination: true
+    showReadingTime: true
+    showTableOfContents: true
+    showTaxonomies: true
+    showWordCount: false
+    sharingLinks:
+      - email
+      - whatsapp
+
+  list:
+    showHero: true
+    heroStyle: "background"
+    showSummary: true
+    showCards: true
+    cardView: true
+    groupByYear: false
+
+  taxonomy:
+    showTermCount: true
+    showHero: false
+
+languages:
+  ca:
+    languageCode: "ca"
+    languageName: "Catala"
+    weight: 1
+    title: "Benet Corner"
+    params:
+      displayName: "CA"
+      isoCode: "ca"
+      dateFormat: "2 January 2006"
+      description: "Benet Corner és un hort i espai comunitari al Carrer del Rec Comtal 19B."
+      copyright: "Benet Corner. Continguts per a informacio comunitaria."
+      author:
+        name: "Benet Corner"
+        headline: "Hort comunitari, memoria del Rec Comtal i vida de barri."
+        bio: "Espai comunitari al Carrer del Rec Comtal 19B, Barcelona."
