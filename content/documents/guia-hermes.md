@@ -32,3 +32,4 @@ draft: true
 - Afegir data quan una dada pugui canviar.
 - No incloure claus, contrasenyes, correus privats ni dades personals.
 - Usar `draft: true` quan el text encara necessita revisió.
+- Publicar només quan una persona responsable hagi aprovat treure `draft: true`.
