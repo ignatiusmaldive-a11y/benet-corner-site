@@ -1,6 +1,6 @@
 ---
 title: "Fases, calendari i indicadors"
-weight: 15
+weight: 16
 ---
 
 ## Calendari orientatiu
@@ -18,6 +18,8 @@ weight: 15
 - almenys 1.500 participacions anuals;
 - 300 participants infantils i juvenils amb protocols de protecció;
 - 80 sessions educatives, comunitàries o patrimonials;
+- 12 actes culturals de petita escala amb control d'aforament, horari i so;
+- 18 tallers de reparació, reutilització o upcycling amb materials registrats;
 - 12 convenis RSC actius amb aportació i impacte auditat;
 - cobertura professional en almenys el 80% de les hores d'obertura;
 - registre del 100% de les incidències sanitàries detectades;

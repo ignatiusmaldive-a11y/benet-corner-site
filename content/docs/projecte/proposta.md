@@ -31,7 +31,7 @@ La proposta manté la major part del solar com a espai obert i cultivable, incor
 | Sòl permeable, plantació, hort i drenatge | 55.000 € |
 | Interpretació del Rec Comtal | 28.000 € |
 | Accessibilitat, llum, visibilitat i seguretat | 30.000 € |
-| Mobiliari, magatzem i equipament | 18.000 € |
+| Mobiliari, magatzem, equip cultural i taller circular | 18.000 € |
 | Posada en marxa i formació | 12.000 € |
 | Contingència tècnica i arqueològica | 34.000 € |
 | **Total orientatiu** | **445.000 €** |

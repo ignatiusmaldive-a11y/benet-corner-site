@@ -12,6 +12,7 @@ Data d'estat: **26 d'agost de 2026**.
 |---|---|---|
 | Activitat comunitària al solar | documentada, amb detalls pendents de certificar | existeixen materials de Fundació Comtal i diaris d'activitat |
 | Pavelló i coberta | proposta conceptual | sense projecte executiu, permís ni finançament concedit |
+| Programació cultural i taller circular | proposta de pilot | sense llicència permanent, calendari ni ingressos acreditats |
 | Inversió de 445.000 € | estimació | paquet municipal orientatiu |
 | Operació de 260.000 €/any | objectiu | necessita convenis, RSC i ingressos verificables |
 | Associació | paquet de constitució preparat | denominació, signatures, registre i NIF pendents de confirmar |

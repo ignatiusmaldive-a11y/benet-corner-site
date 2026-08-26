@@ -26,6 +26,22 @@ weight: 13
 - visites guiades connectades amb Sant Pere, el Born i la ruta del Rec;
 - col·laboració amb Arqueologia de Barcelona, universitats i institucions culturals.
 
+## Cultura i creació
+
+- música acústica, recitals, poesia i narració oral;
+- presentacions de llibres, recerques i projectes veïnals;
+- exposicions, fotografia, cinema de petit format i arts comunitàries;
+- residències curtes amb retorn públic;
+- tallers artístics intergeneracionals i amb escoles.
+
+## Reparació, reutilització i upcycling
+
+- tallers de reparació i transformació de materials nets;
+- jardineres, mobiliari lleuger, senyalètica, tèxtil i objectes artístics;
+- formació prelaboral i encàrrecs per a escoles o entitats;
+- registre de materials recuperats, productes, costos i destinació social dels ingressos;
+- exclusió estricta de materials sanitaris, químics o perillosos.
+
 ## Entorn del CAS Lluís Companys
 
 El projecte no atribueix automàticament les xeringues, miccions o altres incidències a persones usuàries concretes ni al tractament amb metadona. Proposa una diagnosi compartida amb el CAS, l'ASPB, neteja, serveis socials i Districte.

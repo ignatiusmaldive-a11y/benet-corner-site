@@ -15,6 +15,7 @@ La proposta consolida el jardí comunitari existent i l'amplia com a infraestruc
   {{< card link="proposta" title="Proposta completa" subtitle="Necessitats, principis, pressupost i decisió sol·licitada." icon="document-text" >}}
   {{< card link="pavello" title="Pavelló d'aigua i ombra" subtitle="Coberta reversible, pluja, verd i espai d'activitat." icon="home" >}}
   {{< card link="activitats" title="Activitats i impacte" subtitle="Cures, hort, educació, patrimoni i convivència." icon="heart" >}}
+  {{< card link="cultura-circularitat" title="Cultura i circularitat" subtitle="Música, presentacions, arts, reparació i upcycling." icon="sparkles" >}}
   {{< card link="equip" title="Equip professional" subtitle="Personal social remunerat, operació i governança." icon="user-group" >}}
   {{< card link="fases" title="Fases i indicadors" subtitle="Del codisseny a l'operació estabilitzada." icon="refresh" >}}
 {{< /cards >}}

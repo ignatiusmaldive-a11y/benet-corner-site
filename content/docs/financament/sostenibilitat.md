@@ -19,8 +19,8 @@ No hi haurà exclusivitat, publicitat invasiva, substitució de llocs de treball
 |---|---:|---:|
 | Convenis RSC i jornades | 120.000 € | 46% |
 | Conveni municipal i subvencions | 65.000 € | 25% |
-| Tallers, visites i formacions | 35.000 € | 13% |
-| Contractes amb escoles i cultura | 20.000 € | 8% |
+| Tallers, visites, actes culturals, productes circulars i cessió compatible | 35.000 € | 13% |
+| Contractes amb escoles, artistes i cultura | 20.000 € | 8% |
 | Quotes, donacions i micromecenatge | 20.000 € | 8% |
 | **Total** | **260.000 €** | **100%** |
 
