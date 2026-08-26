@@ -1,0 +1,36 @@
+:root {
+  --benet-green: #176b55;
+  --benet-green-dark: #0f4d3e;
+  --benet-water: #287594;
+  --benet-clay: #b7603f;
+}
+
+.benet-hero { position: relative; min-height: 34rem; margin: 1.5rem 0 3rem; display: flex; align-items: flex-end; overflow: hidden; border-radius: 1.5rem; background: #193e32 url('/benet-corner-site/images/concept/benet-street-view.jpg') center/cover no-repeat; box-shadow: 0 24px 70px rgba(15,77,62,.2); }
+.benet-hero::before { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(7,24,20,.08) 12%, rgba(7,24,20,.92) 100%); }
+.benet-hero-content { position: relative; z-index: 1; max-width: 52rem; padding: clamp(1.6rem,5vw,4rem); color: white; }
+.benet-eyebrow { margin: 0 0 .8rem; color: #dcefa8; font-weight: 750; letter-spacing: .04em; text-transform: uppercase; }
+.benet-hero h1 { margin: 0; color: white; font-size: clamp(2.35rem,6vw,4.8rem); line-height: 1; letter-spacing: -.035em; }
+.benet-hero p { max-width: 44rem; color: rgba(255,255,255,.9); font-size: clamp(1rem,2vw,1.22rem); line-height: 1.6; }
+.benet-actions { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 1.4rem; }
+.benet-action { padding: .72rem 1rem; border-radius: .65rem; background: white; color: #102720; font-weight: 750; text-decoration: none; }
+.benet-action.secondary { background: rgba(23,107,85,.94); color: white; border: 1px solid rgba(255,255,255,.35); }
+.benet-stats { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: .8rem; margin: 2rem 0 3rem; }
+.benet-stat { padding: 1.1rem; border: 1px solid rgba(23,107,85,.18); border-radius: .85rem; background: rgba(23,107,85,.055); }
+.benet-stat strong { display: block; color: var(--benet-green); font-size: 1.65rem; }
+.benet-stat span { display: block; margin-top: .25rem; font-size: .9rem; line-height: 1.4; opacity: .8; }
+.benet-figure { margin: 1.8rem 0 2.2rem; }
+.benet-figure img { width: 100%; border-radius: 1rem; }
+.benet-figure figcaption { margin-top: .55rem; font-size: .82rem; opacity: .72; }
+.benet-disclosure { border-left: 4px solid var(--benet-clay); padding: .8rem 1rem; background: rgba(183,96,63,.07); }
+.benet-status { display: inline-block; padding: .18rem .5rem; border-radius: 999px; background: rgba(23,107,85,.12); color: var(--benet-green-dark); font-size: .78rem; font-weight: 700; }
+
+@media (max-width: 760px) {
+  .benet-hero { min-height: 31rem; margin-top: .75rem; border-radius: 1rem; }
+  .benet-stats { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 440px) {
+  .benet-stats { grid-template-columns: 1fr; }
+  .benet-actions { flex-direction: column; }
+  .benet-action { text-align: center; }
+}

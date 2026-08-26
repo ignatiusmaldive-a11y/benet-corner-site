@@ -1,135 +1,79 @@
 baseURL: "https://ignatiusmaldive-a11y.github.io/benet-corner-site/"
+title: "Benet Corner · Wiki oberta"
 languageCode: "ca"
 defaultContentLanguage: "ca"
-title: "Benet Corner"
-theme: "blowfish"
-summaryLength: 28
 enableRobotsTXT: true
-enableEmoji: true
+enableGitInfo: true
+
+module:
+  imports:
+    - path: github.com/imfing/hextra
 
 markup:
   goldmark:
     renderer:
       unsafe: true
+  highlight:
+    noClasses: false
 
 outputs:
-  home:
-    - HTML
-    - RSS
-    - JSON
+  home: [html, llms]
+  page: [html, markdown]
+  section: [html, rss, markdown]
 
-pagination:
-  pagerSize: 12
-
-taxonomies:
-  tag: tags
-  category: categories
-  author: authors
-  series: series
-
-menus:
+menu:
   main:
-    - name: "Pla"
-      pageRef: "pla"
-      weight: 10
-    - name: "Participa"
-      pageRef: "participa"
-      weight: 20
-    - name: "Documents"
-      pageRef: "documents"
-      weight: 30
-    - name: "Noticies"
-      pageRef: "noticies"
-      weight: 40
-    - name: "Hermes"
-      pageRef: "hermes"
-      weight: 50
-  footer:
-    - name: "Participa"
-      pageRef: "participa"
-      weight: 10
-    - name: "Documents"
-      pageRef: "documents"
-      weight: 20
+    - name: Projecte
+      pageRef: /docs
+      weight: 1
+    - name: Finançament
+      pageRef: /docs/financament
+      weight: 2
+    - name: Documents
+      pageRef: /docs/documents
+      weight: 3
+    - name: Participa
+      pageRef: /docs/participacio
+      weight: 4
+    - name: Transparència
+      pageRef: /docs/transparencia
+      weight: 5
+    - name: Cerca
+      weight: 6
+      params:
+        type: search
+    - name: GitHub
+      url: "https://github.com/ignatiusmaldive-a11y/benet-corner-site"
+      weight: 7
+      params:
+        icon: github
 
 params:
-  description: "Benet Corner és un hort i espai comunitari al Carrer del Rec Comtal 19B."
-  imageCredit: "Fotos: Horts Urbans / BCN Regional"
-  colorScheme: "congo"
-  defaultAppearance: "light"
-  autoSwitchAppearance: false
-  enableA11y: true
-  enableSearch: true
-  enableCodeCopy: false
-  disableImageOptimization: true
-  disableImageOptimizationMD: true
-  mainSections:
-    - noticies
-    - documents
-  defaultFeaturedImage: "/assets/benet-corner-4.jpg"
-  defaultSocialImage: "/assets/benet-corner-4.jpg"
-
-  header:
-    layout: "fixed-fill-blur"
-
+  description: "Wiki pública del projecte comunitari, climàtic i patrimonial Benet Corner, al Rec Comtal 19B de Barcelona."
+  externalLinkDecoration: true
+  theme:
+    default: light
+    displayToggle: true
+  navbar:
+    displayTitle: true
+    displayLogo: false
+  page:
+    width: wide
   footer:
-    showMenu: true
-    showCopyright: true
-    showThemeAttribution: false
-    showAppearanceSwitcher: false
-    showScrollToTop: true
-
-  homepage:
-    layout: "custom"
-    homepageImage: "/assets/benet-corner-4.jpg"
-    showRecent: true
-    showRecentItems: 4
-    showMoreLink: true
-    showMoreLinkDest: "/noticies/"
-    cardView: true
-
-  article:
-    showDate: true
-    showDateUpdated: true
-    showAuthor: true
-    showHero: true
-    heroStyle: "background"
-    showBreadcrumbs: true
-    showHeadingAnchors: true
-    showPagination: true
-    showReadingTime: true
-    showTableOfContents: true
-    showTaxonomies: true
-    showWordCount: false
-    sharingLinks:
-      - email
-      - whatsapp
-
-  list:
-    showHero: true
-    heroStyle: "background"
-    showSummary: true
-    showCards: true
-    cardView: true
-    groupByYear: false
-
-  taxonomy:
-    showTermCount: true
-    showHero: false
+    displayCopyright: true
+    displayPoweredBy: false
+  displayUpdatedDate: true
+  dateFormat: "2 January 2006"
+  editURL:
+    enable: true
+    base: "https://github.com/ignatiusmaldive-a11y/benet-corner-site/edit/main/content"
 
 languages:
   ca:
-    languageCode: "ca"
-    languageName: "Catala"
+    languageName: Català
     weight: 1
-    title: "Benet Corner"
+    title: "Benet Corner · Wiki oberta"
     params:
-      displayName: "CA"
-      isoCode: "ca"
-      dateFormat: "2 January 2006"
-      description: "Benet Corner és un hort i espai comunitari al Carrer del Rec Comtal 19B."
-      copyright: "Benet Corner. Continguts per a informacio comunitaria."
-      author:
-        name: "Benet Corner"
-        headline: "Hort comunitari, memoria del Rec Comtal i vida de barri."
-        bio: "Espai comunitari al Carrer del Rec Comtal 19B, Barcelona."
+      description: "Informació pública, documents i seguiment del projecte Benet Corner."
+
+copyright: "© 2026 Benet Corner · Contingut informatiu subjecte a revisió i actualització."
